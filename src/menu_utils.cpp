@@ -359,7 +359,8 @@ namespace MENU_Utils {
                 switch (loraIndex) {
                     case 0: freqChangeWarning = "      Eu --> PL"; break;
                     case 1: freqChangeWarning = "      PL --> UK"; break;
-                    case 2: freqChangeWarning = "      UK --> Eu"; break;
+                    case 2: freqChangeWarning = "      UK --> HAB"; break;
+		    case 3: freqChangeWarning = "      HAB --> Eu"; break;
                 }
                 displayShow("LORA FREQ>", "","   Confirm Change?", freqChangeWarning, "", "<Back         Select>");
                 break;
@@ -727,6 +728,7 @@ namespace MENU_Utils {
                             case 0: thirdRowMainMenu += "Eu]"; break;
                             case 1: thirdRowMainMenu += "PL]"; break;
                             case 2: thirdRowMainMenu += "UK]"; break;
+			    case 3: thirdRowMainMenu += "HAB]"; break;
                         }
                     }
                     

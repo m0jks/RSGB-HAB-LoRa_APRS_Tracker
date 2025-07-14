@@ -69,6 +69,7 @@ namespace LoRa_Utils {
             case 0: loraCountryFreq = "EU/WORLD"; break;
             case 1: loraCountryFreq = "POLAND"; break;
             case 2: loraCountryFreq = "UK"; break;
+	    case 3: loraCountryFreq = "HAB"; break;
         }
         String currentLoRainfo = "LoRa ";
         currentLoRainfo += loraCountryFreq;
