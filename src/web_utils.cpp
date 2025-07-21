@@ -172,7 +172,7 @@ namespace WEB_Utils {
         Config.notification.shutDownBeep        = request->hasParam("notification.shutDownBeep", true);
 
         // LORA
-        for (int i = 0; i < 3; i++) {
+        for (int i = 0; i < 4; i++) {
             Config.loraTypes[i].frequency       = request->getParam("lora." + String(i) + ".frequency", true)->value().toDouble();
             Config.loraTypes[i].spreadingFactor = request->getParam("lora." + String(i) + ".spreadingFactor", true)->value().toInt();
             Config.loraTypes[i].codingRate4     = request->getParam("lora." + String(i) + ".codingRate4", true)->value().toInt();
