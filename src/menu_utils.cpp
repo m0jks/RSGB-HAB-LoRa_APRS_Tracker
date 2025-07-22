@@ -357,10 +357,7 @@ namespace MENU_Utils {
 
             case 210:   // 2.Configuration ---> Change Frequency
                 switch (loraIndex) {
-                    case 0: freqChangeWarning = "      Eu --> PL"; break;
-                    case 1: freqChangeWarning = "      PL --> UK"; break;
-                    case 2: freqChangeWarning = "      UK --> HAB"; break;
-		    case 3: freqChangeWarning = "      HAB --> Eu"; break;
+                    case 0 : freqChangeWarning = "      HAB --> HAB"; break;
                 }
                 displayShow("LORA FREQ>", "","   Confirm Change?", freqChangeWarning, "", "<Back         Select>");
                 break;
@@ -725,10 +722,7 @@ namespace MENU_Utils {
                         thirdRowMainMenu = String(Utils::getMaidenheadLocator(gps.location.lat(), gps.location.lng(), 8));
                         thirdRowMainMenu += " LoRa[";
                         switch (loraIndex) {
-                            case 0: thirdRowMainMenu += "Eu]"; break;
-                            case 1: thirdRowMainMenu += "PL]"; break;
-                            case 2: thirdRowMainMenu += "UK]"; break;
-			    case 3: thirdRowMainMenu += "HAB]"; break;
+                            case 0: thirdRowMainMenu += "HAB]"; break;
                         }
                     }
                     

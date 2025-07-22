@@ -3,8 +3,8 @@
 		{
 			"callsign": "NOCALL-7",
 			"gpsEcoMode": false,
-			"symbol": "[",
-			"overlay": "/",
+			"symbol": "W",
+			"overlay": "L",
 			"micE": "",
 			"comment": "",
 			"smartBeaconActive": true,
@@ -13,22 +13,22 @@
 		{
 			"callsign": "NOCALL-7",
 			"gpsEcoMode": false,
-			"symbol": ">",
-			"overlay": "/",
+			"symbol": "W",
+			"overlay": "L",
 			"micE": "",
 			"comment": "",
 			"smartBeaconActive": true,
-			"smartBeaconSetting": 2
+			"smartBeaconSetting": 0
 		},
 		{
 			"callsign": "NOCALL-7",
 			"gpsEcoMode": false,
-			"symbol": "b",
-			"overlay": "/",
+			"symbol": "W",
+			"overlay": "L",
 			"micE": "",
 			"comment": "",
 			"smartBeaconActive": true,
-			"smartBeaconSetting": 1
+			"smartBeaconSetting": 0
 		}
 	],
 	"display": {
@@ -82,27 +82,6 @@
 		"shutDownBeep": false
 	},
 	"lora": [
-		{
-			"frequency": 433775000,
-			"spreadingFactor": 12,
-			"signalBandwidth": 125000,
-			"codingRate4": 5,
-			"power": 20
-		},
-		{
-			"frequency": 434855000,
-			"spreadingFactor": 9,
-			"signalBandwidth": 125000,
-			"codingRate4": 7,
-			"power": 20
-		},
-		{
-			"frequency": 439912500,
-			"spreadingFactor": 12,
-			"signalBandwidth": 125000,
-			"codingRate4": 5,
-			"power": 20
-		},
 		{
 			"frequency": 439850000,
 			"spreadingFactor": 12,

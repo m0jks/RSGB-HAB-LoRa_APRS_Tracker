@@ -286,25 +286,10 @@ void Configuration::init() {
     notification.lowBatteryBeep     = false;
     notification.shutDownBeep       = false;
 
-    for (int j = 0; j < 4; j++) {
+    for (int j = 0; j < 1; j++) {
         LoraType loraType;
         switch (j) {
             case 0:
-                loraType.frequency           = 433775000;
-                loraType.spreadingFactor     = 12;
-                loraType.codingRate4         = 5;
-                break;
-            case 1:
-                loraType.frequency           = 434855000;
-                loraType.spreadingFactor     = 9;
-                loraType.codingRate4         = 7;
-                break;
-            case 2:
-                loraType.frequency           = 439912500;
-                loraType.spreadingFactor     = 12;
-                loraType.codingRate4         = 5;
-                break;
-            case 3:
                 loraType.frequency           = 439850000;
                 loraType.spreadingFactor     = 12;
                 loraType.codingRate4         = 5;

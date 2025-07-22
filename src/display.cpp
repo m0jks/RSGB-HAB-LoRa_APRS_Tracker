@@ -536,10 +536,7 @@ void displayShow(const String& header, const String& line1, const String& line2,
 void startupScreen(uint8_t index, const String& version) {
     String workingFreq = "    LoRa Freq [";
     switch (index) {
-        case 0: workingFreq += "Eu]"; break;
-        case 1: workingFreq += "PL]"; break;
-        case 2: workingFreq += "UK]"; break;
-        case 3: workingFreq += "HAB]"; break;
+        case 0: workingFreq += "HAB]"; break;
     }
     displayShow(" LoRa APRS", "      (TRACKER)", workingFreq, "", "", "  CA2RXU  " + version, 4000);
     logger.log(logging::LoggerLevel::LOGGER_LEVEL_INFO, "Main", "RichonGuzman (CA2RXU) --> LoRa APRS Tracker/Station");
